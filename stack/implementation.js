@@ -16,7 +16,7 @@ class Stack {
  pop() {
   const isEmpty = isEmpty();
 
-  if (!isEmpty) return this.pilha.pop();
+  if (!isEmpty) return this.stack.pop();
 
   console.log(this.isEmpty());
  }
